@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>robotin_sim</name>
+  <version>0.1.0</version>
+  <description>Simulación del clasificador de palta Hass de Robotin.</description>
+  <maintainer email="robotin@example.com">Proyecto Robotin</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>gz_sim_vendor</depend>
+  <depend>gz_msgs_vendor</depend>
+  <depend>gz_transport_vendor</depend>
+  <depend>gz_plugin_vendor</depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>python_qt_binding</exec_depend>
+  <exec_depend>python3-pil</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>ros_gz_bridge</exec_depend>
+  <exec_depend>ros_gz_sim</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>
